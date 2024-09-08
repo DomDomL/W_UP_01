@@ -44,11 +44,16 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 ```{r}
 boxplot(pushups~position,data=mydata)
 ```
+
 "Skill" players have more endurance then the "line" players so they have more pushups
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(pushups~position,data=mydata)
+```
+The "skill" players have a mean of 50 pushups. While the mean of pushups for the "Line" players is 17. Which means there is a 33 pushup difference between the two. The "skill" players can do 3 times more then "Line" can do.
 
 ## Inferential Results
 
