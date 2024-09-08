@@ -58,7 +58,10 @@ The "skill" players have a mean of 50 pushups. While the mean of pushups for the
 ## Inferential Results
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
-
+```{r}
+t.test(pushups~position,data=mydata)
+```
+The probability we get p-value is 0.000009421. "Skill" players are doing a lot more pushups then "Line" players.
 
 # Discussion and Conclusion
 
