@@ -65,5 +65,6 @@ The probability we get p-value is 0.000009421. "Skill" players are doing a lot m
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+I used helper files to help do my assignment to see the data of pushups difference between line and skill players. In this experiment Line players did only 17 pushups while the skill players did 50 pushups.So I used helper files to grab the codes needed for numerical results which showed there was a 3 times difference between the two teams. Then went back into helper files to grab the codes for inferential results showing the chances they could possibly have. 
